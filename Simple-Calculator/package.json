@@ -1,0 +1,14 @@
+{
+  "name": "simple-calculator-in-js",
+  "version": "1.0.0",
+  "description": "This is a Simple Calculator done using node.js",
+  "main": "Calculator-Server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Pala Rohith",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
