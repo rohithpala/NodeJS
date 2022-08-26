@@ -1,18 +1,16 @@
 ### Procedure To Create JS Package for WebPages:
 
 <pre>
-<b> Open Command Prompt and go to the required directory </b>
+<b> Open Command and go to the required directory </b>
 1) <code>npm init</code> - to initialize npm in that particular directory
 
 2) Leave all the fields to their default or give your inputs
 
 4) Use <code>npm install express</code> to install express.
-<ul>
-	<li>"express" makes things easy - listening to different ports, pushing content to website, delivering content to website... are easily done by "express".</li>
-	<li>3000 port is always free on our machines except when we use it</li>
-</ul>
+	• express makes things easy - listening to different ports, pushing content to website, delivering content to website... are easily done by express.
+	• 3000 port is always free on our machines except when we use it
 
-<b> In server_name.js file:</b>
+<b> In server_name.js file </b>
 5) importing express module - <code>const express = require("express");</code>
 
 6) creating the server - <code>const app = express();</code>
